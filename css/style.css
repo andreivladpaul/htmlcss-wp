@@ -108,17 +108,21 @@ ul li a {
 
 /* sidebar left  */
 .side-left {
+  position: relative;
   float: left;
   width: 20%;
 }
 
-.img-left {
+.img-left,
+.img-center,
+.img-right {
   position: relative;
   width: 100%;
   height: 100px;
 }
 
-.img-left img {
+.img-left img,
+.img-right img {
   width: 100%;
   height: 100px;
   object-fit: cover;
@@ -146,9 +150,8 @@ ul li a {
 /* sidebar center  */
 
 .side-right {
-  float: right;
+  float: left;
   width: 20%;
-  background-color: #abcfe7;
 }
 
 /* footer  */
