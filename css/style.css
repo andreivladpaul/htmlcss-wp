@@ -112,7 +112,7 @@ ul li a {
   float: left;
   width: 20%;
 }
-
+/* setting for all 3 img sidebars  */
 .img-left,
 .img-center,
 .img-right {
@@ -121,6 +121,8 @@ ul li a {
   height: 100px;
 }
 
+/* setting for all 3 img sidebars  */
+
 .img-left img,
 .img-right img {
   width: 100%;
@@ -128,9 +130,11 @@ ul li a {
   object-fit: cover;
 }
 
+/* sidebars text   */
 .side-text {
   color: #8a8a8a;
 }
+/* sidebars text   */
 
 /* sidebar center  */
 .side-center {
@@ -149,15 +153,22 @@ ul li a {
 
 /* sidebar center  */
 
+/* sidebar right  */
 .side-right {
   float: left;
   width: 20%;
 }
+/* sidebar right  */
 
 /* footer  */
 footer {
   width: 100%;
   height: 50px;
-  background-color: #8801fe;
   margin-top: 10px;
+  text-align: center;
+}
+
+#red-heart {
+  color: red;
+  font-size: 24fpx;
 }
