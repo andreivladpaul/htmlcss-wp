@@ -5,19 +5,51 @@
 }
 
 /* common   */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 main {
   width: 80%;
   height: 100%;
   margin: 0 auto;
 }
+
+.corners {
+  border-radius: 10px;
+}
 /* common   */
 
 /* header  */
 header {
-  width: 100%;
-  height: 100px;
-  background-color: #e579e6;
-  margin-bottom: 20px;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header .logo {
+  width: 185px;
+  height: 50px;
+}
+
+nav {
+  height: ;
+  margin: 15px 0;
+}
+
+header .logo img {
+  height: 100%;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8a8a8a;
 }
 
 /* sezione con sidebar   */
@@ -25,7 +57,10 @@ header {
   width: 100%;
   height: 500px;
   margin-bottom: 20px;
-  background-color: #e1d67a;
+}
+
+.overlay {
+  background-color: rgba(95, 95, 95, 0.1);
 }
 
 .section-bar {
